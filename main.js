@@ -16,9 +16,6 @@ $("#money").on("input", function () {
     calc = money * 0.1;
   }
 
-  console.log(money);
-  console.log(calc);
-
   calc = calc.toFixed(0);
 
   $("#result").text(formatNum(calc));
